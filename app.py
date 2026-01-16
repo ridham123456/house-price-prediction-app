@@ -4,7 +4,7 @@ import numpy as np
 
 model=joblib.load('house_price_model.pkl')
 
-st.title("🏠 House Price Prediction App")
+st.title("🏠 House Price Prediction App Made by Pujara Ridham")
 features=model.feature_names_in_
 
 st.set_page_config(page_title="House Price Predictor")
