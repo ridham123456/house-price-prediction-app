@@ -8,7 +8,7 @@ st.title("🏠 House Price Prediction App Made by Pujara Ridham")
 features=model.feature_names_in_
 
 st.set_page_config(page_title="House Price Predictor")
-st.write("Enter house details below:""Enter house details below:")
+st.write("Enter house details below:")
 input_values=[]
 feature_info = {
     "crime_rate": {
