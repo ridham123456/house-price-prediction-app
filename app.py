@@ -104,4 +104,4 @@ for feature in features:
 if st.button("Predict Price"):
     input_array=np.array(input_values).reshape(1, -1)
     prediction=model.predict(input_array)
-    st.success(f"💰 Predicted House Price: {prediction[0]:.2f}")
+    st.success(f"💰 Predicted House Price: {prediction[0]:.2f}lacs")
